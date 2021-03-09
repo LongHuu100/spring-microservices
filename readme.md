@@ -41,4 +41,4 @@ http://localhost:8060/swagger-ui.html
 http://localhost:8061/
 
 # Employee request: 
-http://localhost:{proxy-service}/employee. Vd: http://localhost:8060/employee
+http://localhost:{proxy-service}/{action}. Vd: http://localhost:8060/employee
