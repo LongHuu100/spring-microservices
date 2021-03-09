@@ -1,13 +1,4 @@
-# Microservices with Spring Cloud Advanced Demo Project [![Twitter](https://img.shields.io/twitter/follow/piotr_minkowski.svg?style=social&logo=twitter&label=Follow%20Me)](https://twitter.com/piotr_minkowski)
-
-[![CircleCI](https://circleci.com/gh/piomin/sample-spring-microservices-new.svg?style=svg)](https://circleci.com/gh/piomin/sample-spring-microservices-new)
-
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/dashboard?id=piomin_sample-spring-microservices-new)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=piomin_sample-spring-microservices-new&metric=bugs)](https://sonarcloud.io/dashboard?id=piomin_sample-spring-microservices-new)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=piomin_sample-spring-microservices-new&metric=coverage)](https://sonarcloud.io/dashboard?id=piomin_sample-spring-microservices-new)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=piomin_sample-spring-microservices-new&metric=ncloc)](https://sonarcloud.io/dashboard?id=piomin_sample-spring-microservices-new)
-
-In this project I'm demonstrating you the most interesting features of [Spring Cloud Project](https://spring.io/projects/spring-cloud) for building microservice-based architecture.
+# Microservices with Spring Cloud Advanced 
 
 ## Getting Started 
 Currently you may find here some examples of microservices implementation using different projects from Spring Cloud. All the examples are divided into the branches and described in a separated articles on my blog. Here's a full list of available examples:
@@ -40,6 +31,7 @@ mvn package
 2. discoverry-service (8061) | java -jar discovery-service/target/discovery-service-1.0-SNAPSHOT.jar
 3. proxy-service (8060) or gateway-service | java -jar proxy-service/target/proxy-service-1.0-SNAPSHOT.jar
 4. employee-service | java -jar employee-service/target/employee-service-1.1.jar
+
 .....
 
 # Swagger view
