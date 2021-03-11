@@ -41,4 +41,17 @@ http://localhost:8060/swagger-ui.html
 http://localhost:8061/
 
 # Employee request: 
-http://localhost:{proxy-service}/{action}. Vd: http://localhost:8060/employee
+http://localhost:8060/{proxy-service}/{action}. Vd: http://localhost:8060/employee
+
+## Note Spring version 2.3.x --> Change Finchley.SR2 to Hoxton.SR4
+<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>Hoxton.SR4</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
